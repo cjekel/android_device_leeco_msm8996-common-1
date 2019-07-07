@@ -30,8 +30,8 @@ type debugfs_runtime_pm, debugfs_type, fs_type;
 type debugfs_cnss, debugfs_type, fs_type;
 type debugfs_ufs, debugfs_type, fs_type;
 
-type proc_kernel_sched, fs_type;
+#type proc_kernel_sched, fs_type;
+type proc_kernel_sched, fs_type, proc_type;
 
-# msm_irqbalance
-type proc_irq, fs_type, proc_type;
+#d msm_irqbalance
 type irqbalance_socket, file_type;
