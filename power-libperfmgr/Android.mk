@@ -21,6 +21,7 @@ LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_OWNER := qcom
 LOCAL_MODULE_TAGS := optional
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_MODULE := android.hardware.power@1.2-service.leeco-libperfmgr
 LOCAL_INIT_RC := android.hardware.power@1.2-service.leeco-libperfmgr.rc
